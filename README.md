@@ -1,4 +1,4 @@
-# AOP demo
+# Java Spring Boot Aspect Oriented Programming - AOP Demo
 
 #### Overview
 >The need to track some metrics on a Java web application is frequent. 
@@ -22,6 +22,13 @@ for example, or the number of usages.
 
 On the @LogStatistics annotation there's also an additional parameter "metric".
 The metric string value is to aggregate the collected tracks by macro features.
+
+## What is Aspect Oriented Programming?
+AOP stands for Aspect Oriented Programming. Thanks to the concept of aspects is possible to code and enrich some parts of the software in a transveral way.
+
+Aspects enable the modularization of concerns such as transaction management, logging, security aspects or every features that are crosscutting.
+
+To learn more about it just refer to the Aspect Oriented Programming with Spring: [AOP with Spring](https://docs.spring.io/spring-framework/docs/4.3.15.RELEASE/spring-framework-reference/html/aop.html).
 
 ### Setup and test
 To setup this project you could use a Docker image of mysql or your existing setup.
